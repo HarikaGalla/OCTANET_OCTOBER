@@ -1,0 +1,89 @@
+body {
+    margin: 10;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    background: url("C:\Users\harik\OneDrive\Desktop\Food\Chocolate.jpg");
+    /* Change 'chocolate-background.jpg' to the actual path of your chocolate image */
+    background-color: #333; /* Fallback background color in case the image is not available */
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Add space between lines of text */
+.container h1,
+.container h2,
+.container p,
+.container a {
+    margin-bottom: 40px; /* You can adjust the value to increase or decrease the space */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 20;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.hero {
+    background: url('Chocolate.jpg') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    position: relative;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ff5722;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 10px;
+    position: fixed;
+    bottom: 10;
+    width: 100%;
+    border-bottom: 2px ;
+}
